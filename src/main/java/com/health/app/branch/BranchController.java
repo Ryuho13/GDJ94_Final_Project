@@ -5,11 +5,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/branch/*")
+@RequestMapping("/branches")
 public class BranchController {
 
-	@GetMapping("branchtest")
-	public String test() {
-		return "branch/branchTest";
-	}
+  
+    @GetMapping("")
+    public String branchList() {
+        return "branch/list"; // /WEB-INF/views/branch/list.jsp
+    }
 }

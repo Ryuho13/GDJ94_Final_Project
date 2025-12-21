@@ -1,16 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ include file="includes/header.jsp" %>
+<%@ include file="../includes/header.jsp" %>
 <div class="container-xl">
     <!-- Page title -->
-    <div class="page-header d-print-none text-center">
+    <div class="page-header d-print-none">
         <div class="row align-items-center">
             <div class="col">
-                <!-- Page pre-title -->
                 <div class="page-pretitle">
-                    Overview
+                    페이지
                 </div>
                 <h2 class="page-title">
-                    대시보드
+                    공지사항
                 </h2>
             </div>
         </div>
@@ -18,13 +17,13 @@
     <div class="row row-cards">
         <div class="col-12">
             <div class="card">
-                <div class="card-body text-center">
+                <div class="card-body">
                     <p class="mb-0">
-                        환영합니다! 그룹웨어 템플릿의 대시보드 페이지입니다.
+                        공지사항 목록을 표시합니다.
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<%@ include file="includes/footer.jsp" %>
+<%@ include file="../includes/footer.jsp" %>

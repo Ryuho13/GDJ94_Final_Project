@@ -2,15 +2,11 @@
 <%@ include file="includes/header.jsp" %>
 <div class="container-xl">
     <!-- Page title -->
-    <div class="page-header d-print-none text-center">
+    <div class="page-header d-print-none">
         <div class="row align-items-center">
             <div class="col">
-                <!-- Page pre-title -->
-                <div class="page-pretitle">
-                    Overview
-                </div>
                 <h2 class="page-title">
-                    대시보드
+                    로그인
                 </h2>
             </div>
         </div>
@@ -18,9 +14,9 @@
     <div class="row row-cards">
         <div class="col-12">
             <div class="card">
-                <div class="card-body text-center">
+                <div class="card-body">
                     <p class="mb-0">
-                        환영합니다! 그룹웨어 템플릿의 대시보드 페이지입니다.
+                        여기에 로그인 폼을 추가합니다.
                     </p>
                 </div>
             </div>
